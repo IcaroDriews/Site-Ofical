@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Além do Controle - Ícaro Driews</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo-container">
+                    <div class="logo-symbol">
+                        <svg viewBox="0 0 100 120" width="50" height="60">
+                            <!-- Olho de Hórus estilizado em forma de losango -->
+                            <path d="M50 10 L85 60 L50 110 L15 60 Z" fill="none" stroke="#d4af37" stroke-width="2"/>
+                            <circle cx="50" cy="60" r="15" fill="none" stroke="#d4af37" stroke-width="2"/>
+                            <circle cx="50" cy="60" r="8" fill="#d4af37"/>
+                            <path d="M35 60 Q40 55 50 60 Q60 65 65 60" stroke="#d4af37" stroke-width="2" fill="none"/>
+                            <path d="M50 60 L50 80" stroke="#d4af37" stroke-width="2"/>
+                            <path d="M50 80 L45 90 M50 80 L55 90" stroke="#d4af37" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>ALÉM DO CONTROLE</h1>
+                    </div>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#ebooks-gratuitos">E-books Gratuitos</a></li>
+                    <li><a href="#ebooks-pagos">E-books Pagos</a></li>
+                    <li><a href="#loja">Loja</a></li>
+                    <li><a href="#carrinho" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <svg viewBox="0 0 100 120" width="100" height="120">
+                    <path d="M50 10 L85 60 L50 110 L15 60 Z" fill="none" stroke="#d4af37" stroke-width="2"/>
+                    <circle cx="50" cy="60" r="15" fill="none" stroke="#d4af37" stroke-width="2"/>
+                    <circle cx="50" cy="60" r="8" fill="#d4af37"/>
+                    <path d="M35 60 Q40 55 50 60 Q60 65 65 60" stroke="#d4af37" stroke-width="2" fill="none"/>
+                    <path d="M50 60 L50 80" stroke="#d4af37" stroke-width="2"/>
+                    <path d="M50 80 L45 90 M50 80 L55 90" stroke="#d4af37" stroke-width="2"/>
+                </svg>
+            </div>
+            <h1 class="hero-title">ALÉM DO CONTROLE</h1>
+            <p class="hero-subtitle">Conhecimento ancestral, sabedoria eterna</p>
+            <p class="hero-description">Explore os mistérios da epistemologia, ciência, filosofia e história através da lente do antigo Egito e das narrativas fantásticas</p>
+            <a href="#sobre" class="btn-primary">Descobrir Mais</a>
+        </div>
+        <div class="hero-decorations">
+            <div class="hieroglyph">𓂀</div>
+            <div class="hieroglyph">𓁹</div>
+            <div class="hieroglyph">𓆣</div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">𓁹</span>
+                <h2>Sobre Ícaro Driews</h2>
+                <div class="divider-egypt"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p class="intro-text">Bem-vindo ao portal do conhecimento ancestral e contemporâneo, onde a sabedoria dos faraós encontra a filosofia moderna.</p>
+                    
+                    <h3><i class="fas fa-book-open"></i> Epistemologia</h3>
+                    <p>Explorando as profundezas do conhecimento humano, questionando como sabemos o que sabemos, e desvendando os mistérios da consciência através dos séculos.</p>
+                    
+                    <h3><i class="fas fa-flask"></i> Ciência</h3>
+                    <p>Conectando as descobertas científicas modernas com a sabedoria antiga, revelando como os egípcios antigos já compreendiam verdades que a ciência contemporânea está redescobrindo.</p>
+                    
+                    <h3><i class="fas fa-scroll"></i> Filosofia</h3>
+                    <p>Mergulhando nas grandes questões existenciais que atravessam milênios, desde os templos de Tebas até os debates filosóficos contemporâneos.</p>
+                    
+                    <h3><i class="fas fa-landmark"></i> História</h3>
+                    <p>Desvendando os segredos do passado, revelando narrativas esquecidas e conectando eventos históricos com o presente de forma surpreendente.</p>
+                </div>
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <i class="fas fa-user-astronaut"></i>
+                        <p class="author-name">Ícaro Driews</p>
+                        <p class="author-title">Autor & Pesquisador</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">𓂀</span>
+                <h2>Blog & Artigos</h2>
+                <div class="divider-egypt"></div>
+                <p class="section-description">Reflexões sobre conhecimento, ciência e filosofia</p>
+            </div>
+            <div class="blog-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="epistemologia">Epistemologia</button>
+                <button class="filter-btn" data-category="ciencia">Ciência</button>
+                <button class="filter-btn" data-category="filosofia">Filosofia</button>
+                <button class="filter-btn" data-category="historia">História</button>
+            </div>
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog posts serão inseridos aqui dinamicamente -->
+            </div>
+        </div>
+    </section>
+
+    <!-- E-books Gratuitos Section -->
+    <section id="ebooks-gratuitos" class="ebooks-gratuitos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">𓆣</span>
+                <h2>E-books Gratuitos</h2>
+                <div class="divider-egypt"></div>
+                <p class="section-description">Baixe gratuitamente nossos 5 e-books iniciais</p>
+            </div>
+            <div class="ebooks-grid" id="ebooksGratuitosGrid">
+                <!-- E-books gratuitos serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- E-books Pagos Section -->
+    <section id="ebooks-pagos" class="ebooks-pagos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">𓋹</span>
+                <h2>E-books Premium</h2>
+                <div class="divider-egypt"></div>
+                <p class="section-description">Conteúdo exclusivo e aprofundado</p>
+            </div>
+            <div class="ebooks-grid" id="ebooksPagosGrid">
+                <!-- E-books pagos serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Loja Section -->
+    <section id="loja" class="loja">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-icon">𓋴</span>
+                <h2>Loja Mística</h2>
+                <div class="divider-egypt"></div>
+                <p class="section-description">Roupas e produtos para casa com estética egípcia e fantástica</p>
+            </div>
+            <div class="shop-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="roupas">Roupas</button>
+                <button class="filter-btn" data-category="casa">Casa & Decoração</button>
+                <button class="filter-btn" data-category="acessorios">Acessórios</button>
+            </div>
+            <div class="products-grid" id="productsGrid">
+                <!-- Produtos serão inseridos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Carrinho Modal -->
+    <div id="carrinho" class="modal-cart" style="display: none;">
+        <div class="modal-cart-content">
+            <div class="modal-cart-header">
+                <h2><i class="fas fa-shopping-cart"></i> Seu Carrinho</h2>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Itens do carrinho serão inseridos aqui -->
+            </div>
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-price" id="totalPrice">R$ 0,00</span>
+                </div>
+                <button class="btn-checkout" id="checkoutBtn">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Download E-book -->
+    <div id="downloadModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-modal" id="closeDownloadModal">&times;</span>
+            <h2>Baixe seu E-book Gratuito</h2>
+            <p class="modal-description">Preencha os dados abaixo para receber o e-book</p>
+            <form id="downloadForm">
+                <input type="hidden" id="ebookId" name="ebookId">
+                <div class="form-group">
+                    <label for="nome"><i class="fas fa-user"></i> Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone"><i class="fas fa-phone"></i> Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <i class="fas fa-download"></i> Baixar E-book
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal de Checkout -->
+    <div id="checkoutModal" class="modal" style="display: none;">
+        <div class="modal-content modal-large">
+            <span class="close-modal" id="closeCheckoutModal">&times;</span>
+            <h2>Finalizar Compra</h2>
+            <div class="checkout-container">
+                <div class="checkout-left">
+                    <h3>Resumo do Pedido</h3>
+                    <div id="checkoutItems"></div>
+                    <div class="checkout-total">
+                        <strong>Total:</strong>
+                        <strong id="checkoutTotal">R$ 0,00</strong>
+                    </div>
+                </div>
+                <div class="checkout-right">
+                    <h3>Forma de Pagamento</h3>
+                    <div class="payment-methods">
+                        <button class="payment-method active" data-method="card">
+                            <i class="fas fa-credit-card"></i>
+                            <span>Cartão de Crédito</span>
+                        </button>
+                        <button class="payment-method" data-method="pix">
+                            <i class="fas fa-qrcode"></i>
+                            <span>PIX</span>
+                        </button>
+                    </div>
+                    
+                    <!-- Formulário Cartão -->
+                    <form id="cardPaymentForm" class="payment-form">
+                        <div class="form-group">
+                            <label>Número do Cartão</label>
+                            <input type="text" placeholder="0000 0000 0000 0000" maxlength="19" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Validade</label>
+                                <input type="text" placeholder="MM/AA" maxlength="5" required>
+                            </div>
+                            <div class="form-group">
+                                <label>CVV</label>
+                                <input type="text" placeholder="000" maxlength="3" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Nome no Cartão</label>
+                            <input type="text" placeholder="Nome como está no cartão" required>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-lock"></i> Pagar com Cartão
+                        </button>
+                    </form>
+
+                    <!-- Pagamento PIX -->
+                    <div id="pixPaymentForm" class="payment-form" style="display: none;">
+                        <div class="pix-info">
+                            <div class="pix-qrcode">
+                                <i class="fas fa-qrcode"></i>
+                            </div>
+                            <p class="pix-instructions">Escaneie o QR Code acima com o app do seu banco</p>
+                            <div class="pix-code">
+                                <input type="text" value="00020126580014BR.GOV.BCB.PIX..." readonly>
+                                <button class="btn-copy"><i class="fas fa-copy"></i> Copiar</button>
+                            </div>
+                            <p class="pix-note">Após o pagamento, você receberá a confirmação por e-mail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <svg viewBox="0 0 100 120" width="60" height="72">
+                        <path d="M50 10 L85 60 L50 110 L15 60 Z" fill="none" stroke="#d4af37" stroke-width="2"/>
+                        <circle cx="50" cy="60" r="15" fill="none" stroke="#d4af37" stroke-width="2"/>
+                        <circle cx="50" cy="60" r="8" fill="#d4af37"/>
+                        <path d="M35 60 Q40 55 50 60 Q60 65 65 60" stroke="#d4af37" stroke-width="2" fill="none"/>
+                        <path d="M50 60 L50 80" stroke="#d4af37" stroke-width="2"/>
+                        <path d="M50 80 L45 90 M50 80 L55 90" stroke="#d4af37" stroke-width="2"/>
+                    </svg>
+                    <h3>ALÉM DO CONTROLE</h3>
+                </div>
+                <div class="footer-social">
+                    <h4>Conecte-se</h4>
+                    <div class="social-links">
+                        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com" target="_blank" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <p>Conhecimento ancestral, sabedoria eterna</p>
+                    <p class="footer-email"><i class="fas fa-envelope"></i> contato@alemdocontrole.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Além do Controle. Criado por <strong>Ícaro Driews</strong>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
