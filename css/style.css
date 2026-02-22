@@ -1367,3 +1367,7 @@ section:nth-child(even) {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--dark-gold);
 }
+.logo {
+    max-width: 150px;
+    height: auto;
+}
