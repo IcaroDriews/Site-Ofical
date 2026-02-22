@@ -1589,6 +1589,7 @@ body {
 /* Página de Contato */
 
 body.contact-page {
+   <body class="contact-page">
     background: #ffffff;
     color: #000000;
 }
