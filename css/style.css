@@ -1382,3 +1382,121 @@ section:nth-child(even) {
     object-fit: contain !important;
     display: block;
 }
+.hero-clean {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle at center, #111 0%, #050505 70%);
+    color: #d4af37;
+    padding: 0 20px;
+}
+
+.hero-clean h2 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(28px, 4vw, 46px);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.hero-clean p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: clamp(16px, 2vw, 20px);
+    color: #aaa;
+}
+.section {
+    padding: 100px 20px;
+}
+
+.section h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #d4af37;
+    text-align: center;
+}
+
+.section p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #bbb;
+    line-height: 1.6;
+}
+.navbar {
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(212,175,55,0.2);
+}
+
+.nav-menu a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #d4af37;
+}
+.section {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+.section:nth-child(odd) {
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+<section id="contato" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+
+        <p><i class="fas fa-phone"></i> Telefone: 
+            <a href="tel:+5531984828383">(31) 98482-8383</a>
+        </p>
+
+        <p><i class="fas fa-envelope"></i> Email: 
+            <a href="mailto:canalalemdocontrole@gmail.com">
+                canalalemdocontrole@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.instagram.com/icarodriews/" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.tiktok.com/@canalalemdocontrole?_r=1&_t=ZS-948TdZEePg4" target="_blank">
+                <i class="fab fa-tiktok"></i> TikTok
+            </a>
+        </p>
+
+        <p>
+            <a href="https://www.youtube.com/@CanalAlemdoControle" target="_blank">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+        </p>
+
+    </div>
+</section>
+#contato a {
+    color: #d4af37;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#contato a:hover {
+    color: #fff;
+}
