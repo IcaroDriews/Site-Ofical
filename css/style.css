@@ -1500,3 +1500,29 @@ section:nth-child(even) {
 #contato a:hover {
     color: #fff;
 }
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.section {
+    padding: 120px 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.hero-clean {
+    padding-top: 80px;
+}
+<a href="#contato">Contato</a>
+<a href="#loja">Loja</a>
+<a href="#ebooks">E-books</a>
+<section id="contato">
+<section id="loja">
+<section id="ebooks">
