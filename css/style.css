@@ -1586,3 +1586,27 @@ body {
     from { transform: translateY(0); }
     to { transform: translateY(-100px); }
 }
+/* Página de Contato */
+
+body.contact-page {
+    background: #ffffff;
+    color: #000000;
+}
+
+body.contact-page h1,
+body.contact-page h2,
+body.contact-page h3,
+body.contact-page p,
+body.contact-page span,
+body.contact-page li {
+    color: #000000;
+}
+
+body.contact-page a {
+    color: #1a73e8; /* azul agradável */
+    text-decoration: none;
+}
+
+body.contact-page a:hover {
+    text-decoration: underline;
+}
